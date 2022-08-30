@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+}
+
+.filters{
+    height: 90vh;
+    width: 15rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 0.5rem;
+}
+
+.gridHolder{
+
+    width: 75rem;
+}
+
+.heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.starColor{
+    color: orange;
+}
+
+.price input{
+   width: 5rem; 
+}
+
+.price button{
+    display: block;
+    margin-top: 1rem;
+}
+
+.starHolder{
+    cursor: pointer;
+    margin-bottom: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+.starHolder span{
+    margin-left: 0.1rem;
+}
+
+.price button{
+    margin-left: 3.5rem;
+}
+
+.clear{
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.l{cursor: pointer;}

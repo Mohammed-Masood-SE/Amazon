@@ -1,0 +1,178 @@
+.logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+
+.container{
+    display: flex;
+    
+}
+
+.header{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.cartContainer{
+    padding-left: 2rem;
+    width: 60rem;
+}
+
+.contentTable img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.contentTable{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.5rem;
+    min-width: 700px;
+}
+
+.contentTable thead tr{
+    text-align: center;
+}
+
+
+.contentTable tbody tr{
+    text-align: center;
+    cursor: pointer;
+}
+
+.contentTable tbody tr:hover{
+    background-color: rgb(246, 246, 246);
+    
+}
+
+.contentTable th,.contentTable td{
+    padding: 2rem;
+}
+
+.contentTable tbody tr td button img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.contentTable tbody tr td button{
+    height: 3rem;
+    width: 5rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.purchaseNow{
+    background-color: rgba(247, 247, 248, 0.36);
+    height: 20rem;
+    width: 25rem;
+    margin-top: 7rem;
+    padding: 3rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchaseNow h1{
+    font-size: 1.5rem;
+}
+
+.purchaseNow button{
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: rgb(254,189,105);
+    height: 3rem;
+    width: 8rem;
+    border: none;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.purchaseNow button:hover{
+    height: 4rem;
+    width: 9rem;
+    transition: all 0.2s;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 3px,
+    rgba(0, 0, 0, 0.05) 0px 3px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 11px 0px,
+    rgba(0, 0, 0, 0.1) 0px 23px 33px 0px;
+}
+
+.Shipping{
+    position: fixed;
+    height: 30rem;
+    width: 60rem;
+    background-color: rgb(231, 231, 231);
+    left: 18rem;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.Shipping img{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    right:  2rem;
+    top: 2rem;
+    cursor: pointer;
+}
+
+.locationContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.locationContainer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.locationContainer div label{
+    margin-bottom: 0.2rem;
+}
+
+.locationContainer div input{
+    margin-bottom: 1rem;
+}
+
+.locationContainer div select{
+    margin-bottom: 1rem;
+}
+
+.purchase{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: rgb(254,189,105);
+    height: 2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.purchase:hover{
+    background-color: rgb(130, 254, 105);
+    transition: all 0.2s;
+}

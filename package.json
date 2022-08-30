@@ -9,9 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3auth/web3auth": "^1.1.4",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "firebase": "^9.9.2",
+    "fs": "0.0.1-security",
+    "magic-sdk": "^8.1.1",
+    "moralis": "^1.11.0",
+    "mysql2": "^2.3.3",
     "next": "12.2.4",
+    "next-connect": "^0.13.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.3.0",
+    "react-moralis": "^1.4.0",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "eslint": "8.21.0",

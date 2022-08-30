@@ -1,0 +1,78 @@
+.order{
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.delivered{
+    background-color: rgb(177, 229, 137);
+}
+
+.pending{
+    background-color: rgb(229, 197, 137);
+}
+
+.pending:hover{
+    background-color: rgb(247, 223, 179);
+}
+
+.delivered:hover{
+    background-color: rgb(212, 245, 187);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.4rem;
+}
+
+
+.cartContainer{
+    width: 60rem;
+}
+
+.contentTable img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.contentTable{
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    min-width: 700px;
+}
+
+.contentTable thead tr{
+    text-align: center;
+}
+
+
+.contentTable tbody tr{
+    text-align: center;
+    cursor: pointer;
+}
+
+.contentTable tbody tr:hover{
+    background-color: rgba(246, 246, 246, 0.163);
+    
+}
+
+.contentTable th,.contentTable td{
+    padding: 2rem;
+}
+
+.contentTable tbody tr td button img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.contentTable tbody tr td button{
+    height: 3rem;
+    width: 5rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}

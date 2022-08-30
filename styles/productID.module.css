@@ -1,0 +1,226 @@
+.notFound{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    justify-content: space-between;
+}
+
+.mainContainer{
+   min-height: 150vh;
+}
+
+.container img{
+height: 25rem;
+width: 25rem;
+border-radius: 2rem;
+}
+
+.cont2{
+font-size: 0.7rem;
+margin-left: 2rem;
+width: 60rem;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.textHolder{
+    margin-left: 2rem;
+    width: 40rem;
+    line-height: 2.2rem;
+}
+
+.addToCart{
+margin-left: 2rem;
+font-size: 0.7rem;
+border: 1px solid rgb(0, 0, 0);
+padding: 1rem;
+border-radius: 1rem;
+width: 20rem;
+height: 20rem;
+position: relative;
+background-color: rgba(239, 239, 239, 0.463);
+
+}
+
+.grey{
+    color: rgb(193, 193, 193);
+}
+
+.green{
+    color: rgb(129, 194, 32);
+}
+
+.red{
+    color: red;
+}
+
+.buttons{
+    background-color: rgb(254,189,105);
+    outline: none;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: rgb(254, 212, 105);
+    transition: all 0.2s;
+}
+
+.quantity{
+    display: flex;
+}
+
+.quantity h1{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.quantity button{
+    outline: none;
+    border: none;
+    background-color: rgb(248,248,248);
+    color: gray;
+    cursor: pointer;
+}
+
+.minus{
+    font-size: 2.5rem;
+    padding-bottom: 0.3rem;
+}
+
+.plus{
+    font-size: 2rem;
+}
+
+.rating{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.rating span{
+    margin-left: 0.5rem;
+}
+
+.star1,.star2,.star3,.star4,.star5{
+    cursor: pointer;
+}
+
+.checked {
+    color: orange;
+}
+
+.star1:hover ~ .star2 ,.star1:hover ~ .star3,.star1:hover ~ .star4,.star1:hover ~ .star5,.star1:hover{
+    color: orange;
+}
+
+.star2:hover ~ .star3,.star2:hover ~ .star4,.star2:hover ~ .star5,.star2:hover{
+    color: orange;
+}
+
+.star3:hover,.star3:hover ~ .star4,.star3:hover ~ .star5{
+    color: orange;
+}
+
+.star4:hover,.star4:hover ~ .star5{
+    color: orange;
+}
+
+.star5:hover{
+    color: orange;
+}
+
+.rate{
+    margin-left: 2.7rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.reviewHolder{
+    padding-left: 2rem;
+}
+
+.reviews{
+    padding-left: 2rem;
+    margin-top: 3rem;
+}
+
+.add{
+    position: absolute;
+    top :-0.5rem;
+    margin-top: 0;
+    left: 10rem;
+    cursor: pointer;
+}
+
+.reviewHolderHeading{
+    position: relative;
+}
+
+.addReviews{
+
+    top: 10rem;
+    left: 25rem;
+    right: 25rem;
+    bottom: 10rem;
+    border-radius: 1rem;
+    position: fixed;
+    background-color: rgb(244, 235, 218);
+}
+
+.close{
+    color: red;
+    position: absolute;
+    right: 1rem;
+    top:0.5rem; 
+    margin-top: 0rem;  
+    cursor: pointer; 
+}
+
+.addReviews h3{
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+
+.addReviews textarea{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    width: 37rem;
+    height: 15rem;
+    resize: none;
+    padding: 1rem;
+outline: none;
+
+}
+
+.addReviews button{
+display: block;
+margin-left: 17rem;
+margin-top: 0.6rem;
+cursor: pointer;
+width: 10rem;
+height: 2rem;
+border-radius: 0.2rem;
+outline: none;
+border: 1px solid black;
+}

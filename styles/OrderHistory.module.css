@@ -1,0 +1,15 @@
+.pageContainer{
+    padding: 1rem;
+}
+
+.logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.ordersContainer{
+    padding: 1rem;
+}
+
